@@ -1,0 +1,16 @@
+The graph G ('./graph/project_graph_fig1.dot') is 3-colourable.
+The chromatic number of the grap is 3.
+There are 6 ways of colouring a graph.
+    Where u'1' means node 1 and its value is after the ':'.
+          and the value of the node means the index of color.
+          The list of color is:
+              ['red', 'orange', 'green', 'blue', 'purple', 'darkcyan', 'coral', 'chocolate', 'darkgoldenrod', 'darkgray', 'darkkhaki', 'deeppink'].
+	      0 => red.
+
+The possible ways are below:
+{u'1': 2, u'0': 0, u'2': 1}
+{u'1': 1, u'0': 2, u'2': 0}
+{u'1': 0, u'0': 2, u'2': 1}
+{u'1': 0, u'0': 1, u'2': 2}
+{u'1': 1, u'0': 0, u'2': 2}
+{u'1': 2, u'0': 1, u'2': 0}
