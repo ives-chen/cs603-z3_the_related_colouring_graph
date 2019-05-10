@@ -98,8 +98,11 @@ def write_summary(dict_list=None, filename=None, chromatic_number=None, k_colour
 		file.write('The needed amount of colors is large than the number of node of grapth (%s).\n' % repr(filename)) 
 	#write the summary into a file
 	else:
+		#decide the graph is k-colourable or not
+		#the input k >= chromatic number => k-colourable
 		if k_colourable >= chromatic_number:
 			file.write('The graph G (%s) is %d-colourable.\n' % (repr(filename), k_colourable)) 
+		#the input k < chromatic number => not k-colourable
 		else:
 			file.write('The graph G (%s) is not %d-colourable.\n' % (repr(filename), k_colourable)) 
 		file.write('The chromatic number of the grap is %d.\n' % chromatic_number) 
